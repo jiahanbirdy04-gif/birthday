@@ -14,20 +14,8 @@ The URL and publishable key are already in `index.html`. Replace them if you use
 
 ## Editor
 
-Tap the pencil button. Add a recipient name, memorable site key, photos, captions, flower notes, music, timed lyrics, Happy Birthday audio, and the final letter. Use **Preview changes** to save locally and **Download GitHub file** to create a self-contained shareable HTML copy.
-
-## Timed lyrics
-
-Paste LRC-style timing, one line at a time:
-
-```text
-[00:05.00]First line
-[00:10.50]Second line
-[00:16.00]Sing along with me
-```
-
-The active line glows while the uploaded audio plays.
+Tap the pencil button. Add a recipient name, memorable site key, photos, an editable short background/story for each photo, Happy Birthday audio, and the final letter. Photos preserve their natural landscape or portrait proportions in the swipeable gallery. Use **Preview changes** to save locally and **Download GitHub file** to create a self-contained shareable HTML copy.
 
 ## Notes
 
-Use HTTPS for GitHub Pages so the service worker and install prompt work. Mobile browsers require a user gesture before audio can play; the candle tap is the gesture used to start the Happy Birthday clip.
+Use HTTPS for GitHub Pages so the service worker and install prompt work. Mobile browsers require a user gesture before audio can play; the candle tap is the gesture used to start the Happy Birthday clip. The current version intentionally removes the Flowers and Soundtrack sections while the home, Memories, Notes, and Finale flow is refined.
